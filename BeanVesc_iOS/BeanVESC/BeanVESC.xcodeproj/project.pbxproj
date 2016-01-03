@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263937361BA5EC5D00B647F3 /* VescController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263937351BA5EC5D00B647F3 /* VescController.m */; };
+		263937571BA8A54C00B647F3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263937561BA8A54C00B647F3 /* SettingsViewController.m */; };
+		269497C41B98CE8400C477B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 269497C31B98CE8400C477B8 /* main.m */; };
+		269497C71B98CE8400C477B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 269497C61B98CE8400C477B8 /* AppDelegate.m */; };
+		269497CA1B98CE8400C477B8 /* BeanVESC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 269497C81B98CE8400C477B8 /* BeanVESC.xcdatamodeld */; };
+		269497CD1B98CE8400C477B8 /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269497CC1B98CE8400C477B8 /* ControlViewController.m */; };
+		269497D01B98CE8400C477B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269497CE1B98CE8400C477B8 /* Main.storyboard */; };
+		269497D21B98CE8400C477B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269497D11B98CE8400C477B8 /* Images.xcassets */; };
+		269497D51B98CE8400C477B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269497D31B98CE8400C477B8 /* LaunchScreen.xib */; };
+		269497E11B98CE8400C477B8 /* BeanVESCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 269497E01B98CE8400C477B8 /* BeanVESCTests.m */; };
+		269497EF1B98CECE00C477B8 /* libBean OSX Library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 269497EE1B98CECE00C477B8 /* libBean OSX Library.a */; };
+		269497F21B98CEE200C477B8 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 269497F11B98CEE200C477B8 /* GradientView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		269497DB1B98CE8400C477B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269497B61B98CE8400C477B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269497BD1B98CE8400C477B8;
+			remoteInfo = BeanVESC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		263937341BA5EC5D00B647F3 /* VescController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VescController.h; sourceTree = "<group>"; };
+		263937351BA5EC5D00B647F3 /* VescController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VescController.m; sourceTree = "<group>"; };
+		263937551BA8A54C00B647F3 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		263937561BA8A54C00B647F3 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		263937581BA8B7E700B647F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		269497BE1B98CE8400C477B8 /* BeanVESC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeanVESC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269497C21B98CE8400C477B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269497C31B98CE8400C477B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		269497C51B98CE8400C477B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		269497C61B98CE8400C477B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		269497C91B98CE8400C477B8 /* BeanVESC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeanVESC.xcdatamodel; sourceTree = "<group>"; };
+		269497CB1B98CE8400C477B8 /* ControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
+		269497CC1B98CE8400C477B8 /* ControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlViewController.m; sourceTree = "<group>"; };
+		269497CF1B98CE8400C477B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269497D11B98CE8400C477B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		269497D41B98CE8400C477B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		269497DA1B98CE8400C477B8 /* BeanVESCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeanVESCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269497DF1B98CE8400C477B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269497E01B98CE8400C477B8 /* BeanVESCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeanVESCTests.m; sourceTree = "<group>"; };
+		269497EB1B98CEC700C477B8 /* PTDBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDBean.h; sourceTree = "<group>"; };
+		269497EC1B98CEC700C477B8 /* PTDBeanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDBeanManager.h; sourceTree = "<group>"; };
+		269497ED1B98CEC700C477B8 /* PTDBeanRadioConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDBeanRadioConfig.h; sourceTree = "<group>"; };
+		269497EE1B98CECE00C477B8 /* libBean OSX Library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libBean OSX Library.a"; sourceTree = "<group>"; };
+		269497F01B98CEE200C477B8 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		269497F11B98CEE200C477B8 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269497BB1B98CE8400C477B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269497EF1B98CECE00C477B8 /* libBean OSX Library.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269497D71B98CE8400C477B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263937371BA601E800B647F3 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				263937391BA601FC00B647F3 /* Bluetooth Modules */,
+				263937381BA601F000B647F3 /* ESCs */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		263937381BA601F000B647F3 /* ESCs */ = {
+			isa = PBXGroup;
+			children = (
+				263937341BA5EC5D00B647F3 /* VescController.h */,
+				263937351BA5EC5D00B647F3 /* VescController.m */,
+			);
+			name = ESCs;
+			sourceTree = "<group>";
+		};
+		263937391BA601FC00B647F3 /* Bluetooth Modules */ = {
+			isa = PBXGroup;
+			children = (
+				269497EA1B98CEBA00C477B8 /* LightBlueBean */,
+			);
+			name = "Bluetooth Modules";
+			sourceTree = "<group>";
+		};
+		263937521BA8A4F000B647F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				269497F01B98CEE200C477B8 /* GradientView.h */,
+				269497F11B98CEE200C477B8 /* GradientView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		263937531BA8A50600B647F3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				269497CB1B98CE8400C477B8 /* ControlViewController.h */,
+				269497CC1B98CE8400C477B8 /* ControlViewController.m */,
+				263937551BA8A54C00B647F3 /* SettingsViewController.h */,
+				263937561BA8A54C00B647F3 /* SettingsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		269497B51B98CE8400C477B8 = {
+			isa = PBXGroup;
+			children = (
+				263937371BA601E800B647F3 /* Plugins */,
+				269497C01B98CE8400C477B8 /* BeanVESC */,
+				269497DD1B98CE8400C477B8 /* BeanVESCTests */,
+				269497BF1B98CE8400C477B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		269497BF1B98CE8400C477B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269497BE1B98CE8400C477B8 /* BeanVESC.app */,
+				269497DA1B98CE8400C477B8 /* BeanVESCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269497C01B98CE8400C477B8 /* BeanVESC */ = {
+			isa = PBXGroup;
+			children = (
+				263937531BA8A50600B647F3 /* View Controllers */,
+				263937521BA8A4F000B647F3 /* Views */,
+				269497C51B98CE8400C477B8 /* AppDelegate.h */,
+				269497C61B98CE8400C477B8 /* AppDelegate.m */,
+				269497CE1B98CE8400C477B8 /* Main.storyboard */,
+				269497D11B98CE8400C477B8 /* Images.xcassets */,
+				269497D31B98CE8400C477B8 /* LaunchScreen.xib */,
+				269497C81B98CE8400C477B8 /* BeanVESC.xcdatamodeld */,
+				269497C11B98CE8400C477B8 /* Supporting Files */,
+			);
+			path = BeanVESC;
+			sourceTree = "<group>";
+		};
+		269497C11B98CE8400C477B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				269497C21B98CE8400C477B8 /* Info.plist */,
+				269497C31B98CE8400C477B8 /* main.m */,
+				263937581BA8B7E700B647F3 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		269497DD1B98CE8400C477B8 /* BeanVESCTests */ = {
+			isa = PBXGroup;
+			children = (
+				269497E01B98CE8400C477B8 /* BeanVESCTests.m */,
+				269497DE1B98CE8400C477B8 /* Supporting Files */,
+			);
+			path = BeanVESCTests;
+			sourceTree = "<group>";
+		};
+		269497DE1B98CE8400C477B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				269497DF1B98CE8400C477B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		269497EA1B98CEBA00C477B8 /* LightBlueBean */ = {
+			isa = PBXGroup;
+			children = (
+				269497EE1B98CECE00C477B8 /* libBean OSX Library.a */,
+				269497EB1B98CEC700C477B8 /* PTDBean.h */,
+				269497EC1B98CEC700C477B8 /* PTDBeanManager.h */,
+				269497ED1B98CEC700C477B8 /* PTDBeanRadioConfig.h */,
+			);
+			name = LightBlueBean;
+			path = BeanVESC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269497BD1B98CE8400C477B8 /* BeanVESC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269497E41B98CE8400C477B8 /* Build configuration list for PBXNativeTarget "BeanVESC" */;
+			buildPhases = (
+				269497BA1B98CE8400C477B8 /* Sources */,
+				269497BB1B98CE8400C477B8 /* Frameworks */,
+				269497BC1B98CE8400C477B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeanVESC;
+			productName = BeanVESC;
+			productReference = 269497BE1B98CE8400C477B8 /* BeanVESC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		269497D91B98CE8400C477B8 /* BeanVESCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269497E71B98CE8400C477B8 /* Build configuration list for PBXNativeTarget "BeanVESCTests" */;
+			buildPhases = (
+				269497D61B98CE8400C477B8 /* Sources */,
+				269497D71B98CE8400C477B8 /* Frameworks */,
+				269497D81B98CE8400C477B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269497DC1B98CE8400C477B8 /* PBXTargetDependency */,
+			);
+			name = BeanVESCTests;
+			productName = BeanVESCTests;
+			productReference = 269497DA1B98CE8400C477B8 /* BeanVESCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269497B61B98CE8400C477B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Gourmet Pixel Ltd";
+				TargetAttributes = {
+					269497BD1B98CE8400C477B8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					269497D91B98CE8400C477B8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 269497BD1B98CE8400C477B8;
+					};
+				};
+			};
+			buildConfigurationList = 269497B91B98CE8400C477B8 /* Build configuration list for PBXProject "BeanVESC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269497B51B98CE8400C477B8;
+			productRefGroup = 269497BF1B98CE8400C477B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269497BD1B98CE8400C477B8 /* BeanVESC */,
+				269497D91B98CE8400C477B8 /* BeanVESCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269497BC1B98CE8400C477B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269497D01B98CE8400C477B8 /* Main.storyboard in Resources */,
+				269497D51B98CE8400C477B8 /* LaunchScreen.xib in Resources */,
+				269497D21B98CE8400C477B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269497D81B98CE8400C477B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269497BA1B98CE8400C477B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263937361BA5EC5D00B647F3 /* VescController.m in Sources */,
+				269497F21B98CEE200C477B8 /* GradientView.m in Sources */,
+				269497C71B98CE8400C477B8 /* AppDelegate.m in Sources */,
+				269497CA1B98CE8400C477B8 /* BeanVESC.xcdatamodeld in Sources */,
+				269497CD1B98CE8400C477B8 /* ControlViewController.m in Sources */,
+				269497C41B98CE8400C477B8 /* main.m in Sources */,
+				263937571BA8A54C00B647F3 /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269497D61B98CE8400C477B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269497E11B98CE8400C477B8 /* BeanVESCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		269497DC1B98CE8400C477B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269497BD1B98CE8400C477B8 /* BeanVESC */;
+			targetProxy = 269497DB1B98CE8400C477B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		269497CE1B98CE8400C477B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269497CF1B98CE8400C477B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269497D31B98CE8400C477B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269497D41B98CE8400C477B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		269497E21B98CE8400C477B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		269497E31B98CE8400C477B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269497E51B98CE8400C477B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = BeanVESC/PrefixHeader.pch;
+				INFOPLIST_FILE = BeanVESC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeanVESC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		269497E61B98CE8400C477B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = BeanVESC/PrefixHeader.pch;
+				INFOPLIST_FILE = BeanVESC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BeanVESC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		269497E81B98CE8400C477B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeanVESCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeanVESC.app/BeanVESC";
+			};
+			name = Debug;
+		};
+		269497E91B98CE8400C477B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BeanVESCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeanVESC.app/BeanVESC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269497B91B98CE8400C477B8 /* Build configuration list for PBXProject "BeanVESC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269497E21B98CE8400C477B8 /* Debug */,
+				269497E31B98CE8400C477B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269497E41B98CE8400C477B8 /* Build configuration list for PBXNativeTarget "BeanVESC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269497E51B98CE8400C477B8 /* Debug */,
+				269497E61B98CE8400C477B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269497E71B98CE8400C477B8 /* Build configuration list for PBXNativeTarget "BeanVESCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269497E81B98CE8400C477B8 /* Debug */,
+				269497E91B98CE8400C477B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		269497C81B98CE8400C477B8 /* BeanVESC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				269497C91B98CE8400C477B8 /* BeanVESC.xcdatamodel */,
+			);
+			currentVersion = 269497C91B98CE8400C477B8 /* BeanVESC.xcdatamodel */;
+			path = BeanVESC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 269497B61B98CE8400C477B8 /* Project object */;
+}
